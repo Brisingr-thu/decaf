@@ -1,0 +1,22 @@
+class Main {
+	int c;
+	static void main() {
+		int c;
+		int d;
+		c = 0;
+		d = 2;
+		int a;
+		string b;
+		switch(c){
+			case 0:
+				c = d+2;
+				break;
+			case d:
+				a = c;
+			case b:
+				a = b;
+			default:
+				break;
+		}
+	} d
+}

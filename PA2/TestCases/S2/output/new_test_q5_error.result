@@ -1,0 +1,11 @@
+Exception in thread "main" java.lang.NullPointerException
+	at decaf.typecheck.BuildSym.visitSwitch(BuildSym.java:238)
+	at decaf.tree.Tree$Switch.accept(Tree.java:1084)
+	at decaf.typecheck.BuildSym.visitMethodDef(BuildSym.java:157)
+	at decaf.tree.Tree$MethodDef.accept(Tree.java:425)
+	at decaf.typecheck.BuildSym.visitClassDef(BuildSym.java:100)
+	at decaf.tree.Tree$ClassDef.accept(Tree.java:390)
+	at decaf.typecheck.BuildSym.visitTopLevel(BuildSym.java:77)
+	at decaf.typecheck.BuildSym.buildSymbol(BuildSym.java:40)
+	at decaf.Driver.compile(Driver.java:91)
+	at decaf.Driver.main(Driver.java:107)
